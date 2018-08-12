@@ -1,0 +1,10 @@
+.lsow-icon-list .lsow-icon-list-item .lsow-image-wrapper img {
+  width: 32px;
+}
+.lsow-icon-list .lsow-icon-list-item .lsow-icon-wrapper span {
+  font-size: 32px;
+  color: #666666;
+}
+.lsow-icon-list .lsow-icon-list-item .lsow-icon-wrapper span:hover {
+  color: #444444;
+}

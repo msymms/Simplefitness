@@ -1,0 +1,4 @@
+.iw-so-video-file .mejs-container .mejs-controls,
+.iw-so-video-file .mejs-container .mejs-controls .mejs-volume-slider {
+  background: rgba(0, 0, 0, 0.5);
+}

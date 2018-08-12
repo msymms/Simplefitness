@@ -1,0 +1,23 @@
+.iw-so-circle .iw-so-circle-title {
+  color: inherit;
+}
+.iw-so-circle .iw-so-circle-chart {
+  position: relative;
+  min-height: 10px;
+}
+.iw-so-circle .iw-so-circle-chart canvas {
+  max-width: 100%;
+}
+.iw-so-circle .iw-so-circle-percent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 0;
+  font-size: inherit;
+  color: inherit;
+}

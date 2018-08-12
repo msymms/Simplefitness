@@ -1,0 +1,13 @@
+.lsow-posts-carousel .lsow-posts-carousel-item {
+  padding: 20px;
+}
+@media screen and (max-width: 800px) {
+  .lsow-posts-carousel .lsow-posts-carousel-item {
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .lsow-posts-carousel .lsow-posts-carousel-item {
+    padding: 10px;
+  }
+}

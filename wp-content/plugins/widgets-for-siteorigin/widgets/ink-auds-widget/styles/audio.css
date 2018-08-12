@@ -1,0 +1,11 @@
+.iw-so-audio-file {
+  background: #ffffff;
+}
+.iw-so-audio-title,
+.iw-so-audio-meta {
+  color: #333;
+}
+.iw-so-audio-title {
+  font-size: 1.6em;
+  margin-bottom: 0;
+}

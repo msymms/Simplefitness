@@ -1,0 +1,13 @@
+.iw-so-number-title {
+  color: inherit;
+  margin-bottom: 0;
+}
+.iw-so-number-count {
+  color: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0;
+}
+.iw-so-number {
+  padding: 30px 15px;
+}

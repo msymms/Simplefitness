@@ -1,0 +1,14 @@
+Summer Theme
+RGB
+67 132 150  Light Blue
+42 42 66    Drk Blue
+40 109 168  Med Blue
+179 131 87  Tan
+205 83 96   Red
+
+Hex
+438496  Light Blue
+2A2A42  Drk Blue
+386DA8  Med Blue
+B38357  Tan
+CD5360  Red
