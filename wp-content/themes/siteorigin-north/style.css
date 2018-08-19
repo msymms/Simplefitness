@@ -4,7 +4,7 @@ Author: SiteOrigin
 Author URI: https://siteorigin.com/
 Theme URI: https://siteorigin.com/theme/north/
 Description: Inspired by the elegant majesty and purity of the Swiss Alps and built with business owners in mind, North is the star in the SiteOrigin sky. With easy-to-use options, classic lines and a minimal feel, North feels visually limitless and technically effortless. It's fully responsive and retina ready. Some key features are its responsive menu, gorgeous animations and tight integration with all the major plugins you've come to rely on. You can use it to create a business website using SiteOrigin Page Builder and our Widgets Bundle. You can also build a full ecommerce store though North's WooCommerce integration. We offer free and premium support on our support <a href="http://siteorigin.com/thread/">forums</a> (http://siteorigin.com/thread/).
-Version: 1.4.9
+Version: 1.5
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: siteorigin-north
@@ -1908,6 +1908,31 @@ article.page {
   clear: both;
   margin: 0 0 1.5em; }
 
+.search-results article.post {
+  clear: both;
+  margin-bottom: 35px;
+  overflow: auto; }
+
+.search-results .entry-title {
+  font-size: 18px; }
+
+.search-results .entry-thumbnail {
+  float: left;
+  margin: 0 20px 15px 0;
+  text-align: left;
+  width: 40%; }
+  @media (max-width: 1024px) {
+    .search-results .entry-thumbnail {
+      float: none;
+      text-align: center;
+      width: auto; } }
+
+.page-layout-no-sidebar.search-results .entry-thumbnail {
+  width: 30%; }
+  @media (max-width: 1024px) {
+    .page-layout-no-sidebar.search-results .entry-thumbnail {
+      width: auto; } }
+
 /*--------------------------------------------------------------
 ## Post Pagination
 --------------------------------------------------------------*/
@@ -1932,13 +1957,6 @@ article.page {
   .post-pagination .prev, .post-pagination .next {
     color: #595959;
     padding: 5px 5px 2px 5px; }
-
-/*--------------------------------------------------------------
-## Asides
---------------------------------------------------------------*/
-.blog .format-aside .entry-title,
-.archive .format-aside .entry-title {
-  display: none; }
 
 /*--------------------------------------------------------------
 ## Comments
