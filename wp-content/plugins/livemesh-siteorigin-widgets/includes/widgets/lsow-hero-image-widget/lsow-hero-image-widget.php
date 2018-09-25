@@ -414,14 +414,18 @@ class LSOW_Hero_Image_Widget extends SiteOrigin_Widget {
     }
 
     function get_template_variables($instance, $args) {
-        return array(
+
+        $settings = $instance['settings'];
+
+        $settings = array_merge($settings, array(
             'header_type' => $instance['header_type'],
             'custom_header' => $instance['custom_header'],
             'standard_header' => $instance['standard_header'],
             'pointer_down_url' => $instance['pointer_down_url'],
             'background' => $instance['background'],
-            'settings' => $instance['settings']
-        );
+        ));
+
+        return array('settings' => $settings);
     }
 
 }

@@ -1,9 +1,3 @@
-html {
-  box-sizing: border-box; }
-
-*, *::after, *::before {
-  box-sizing: inherit; }
-
 /* ---------- Pricing table --------- */
 .lsow-pricing-table .lsow-pricing-plan {
   float: left;
@@ -46,12 +40,9 @@ html {
     background: #fff;
     padding: 0;
     -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
     -webkit-transition: all 0.1s ease-in-out 0s;
-    -moz-transition: all 0.1s ease-in-out 0s;
-    -ms-transition: all 0.1s ease-in-out 0s;
     transition: all 0.1s ease-in-out 0s;
     margin-bottom: 30px; }
     .lsow-pricing-table .lsow-pricing-plan:hover .lsow-purchase {
@@ -89,7 +80,6 @@ html {
       padding: 6px;
       margin: 0;
       -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
       -ms-box-sizing: border-box;
       box-sizing: border-box;
       text-align: center; }
@@ -127,8 +117,6 @@ html {
     margin: 0 auto;
     background: #f1f1f1;
     -webkit-transition: all 0.1s ease-in-out 0s;
-    -moz-transition: all 0.1s ease-in-out 0s;
-    -ms-transition: all 0.1s ease-in-out 0s;
     transition: all 0.1s ease-in-out 0s;
     border-left: 1px solid #eee;
     border-right: 1px solid #eee;
@@ -154,3 +142,5 @@ html {
       padding: 20px 0;
       background-color: #e5e5e5;
       border-color: #ddd; }
+
+/*# sourceMappingURL=style.css.map */

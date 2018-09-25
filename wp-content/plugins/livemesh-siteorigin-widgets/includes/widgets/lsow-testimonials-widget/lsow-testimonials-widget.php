@@ -115,10 +115,12 @@ class LSOW_Testimonials_Widget extends SiteOrigin_Widget {
     }
 
     function get_template_variables($instance, $args) {
-        return array(
+        $settings = $instance['settings'];
+
+        $settings = array_merge($settings, array(
             'testimonials' => !empty($instance['testimonials']) ? $instance['testimonials'] : array(),
-            'settings' => $instance['settings']
-        );
+        ));
+        return array('settings' => $settings);
     }
 
 }

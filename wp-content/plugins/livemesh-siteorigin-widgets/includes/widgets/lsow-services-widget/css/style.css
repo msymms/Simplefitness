@@ -1,9 +1,3 @@
-html {
-  box-sizing: border-box; }
-
-*, *::after, *::before {
-  box-sizing: inherit; }
-
 /* Style 1 */
 .lsow-services.lsow-style1 .lsow-service .lsow-icon-wrapper span {
   display: block;
@@ -11,12 +5,14 @@ html {
   font-size: 96px;
   line-height: 1;
   margin-bottom: 20px;
+  -webkit-transition: color 0.4s ease-in-out 0s;
   transition: color 0.4s ease-in-out 0s; }
 .lsow-services.lsow-style1 .lsow-service .lsow-image-wrapper img {
   display: block;
   max-width: 100%;
   text-align: center;
   margin: 0 auto 25px;
+  -webkit-transition: all 0.4s ease-in-out 0s;
   transition: all 0.4s ease-in-out 0s; }
 .lsow-services.lsow-style1 .lsow-service .lsow-service-text {
   text-align: center;
@@ -34,7 +30,8 @@ html {
     margin-bottom: 10px;
     margin-bottom: 20px; }
 .lsow-services.lsow-style1 .lsow-service:hover .lsow-image-wrapper img {
-  transform: scale(0.9, 0.9); }
+  -webkit-transform: scale(0.9, 0.9);
+          transform: scale(0.9, 0.9); }
 
 /* Style 2 */
 .lsow-services.lsow-style2 .lsow-service .lsow-image-wrapper img, .lsow-services.lsow-style2 .lsow-service .lsow-icon-wrapper span {
@@ -163,12 +160,14 @@ html {
     line-height: 1;
     margin-bottom: 15px;
     color: #999;
+    -webkit-transition: color 0.4s ease-in-out 0s;
     transition: color 0.4s ease-in-out 0s; }
   .lsow-services.lsow-style5 .lsow-service .lsow-image-wrapper img {
     display: block;
     max-width: 100%;
     text-align: center;
     margin: 0 auto 25px;
+    -webkit-transition: all 0.4s ease-in-out 0s;
     transition: all 0.4s ease-in-out 0s; }
   .lsow-services.lsow-style5 .lsow-service .lsow-service-text {
     text-align: center;
@@ -188,14 +187,17 @@ html {
       line-height: 26px;
       margin-bottom: 10px; }
   .lsow-services.lsow-style5 .lsow-service:hover .lsow-image-wrapper img {
-    transform: scale(0.9, 0.9); }
+    -webkit-transform: scale(0.9, 0.9);
+            transform: scale(0.9, 0.9); }
 
 /* -------- General services -------- */
 .lsow-services .lsow-service {
   margin-bottom: 50px; }
   .lsow-services .lsow-service .lsow-icon-wrapper span {
+    -webkit-transition: color 0.4s ease-in-out 0s;
     transition: color 0.4s ease-in-out 0s; }
   .lsow-services .lsow-service .lsow-image-wrapper img {
+    -webkit-transition: all 0.4s ease-in-out 0s;
     transition: all 0.4s ease-in-out 0s; }
   .lsow-services .lsow-service .lsow-service-text {
     font-size: 15px;
@@ -208,3 +210,5 @@ html {
         color: #e5e5e5; }
   .lsow-services .lsow-service:hover .lsow-image-wrapper img {
     opacity: 0.8; }
+
+/*# sourceMappingURL=style.css.map */

@@ -177,10 +177,13 @@ class LSOW_Odometer_Widget extends SiteOrigin_Widget {
     }
 
     function get_template_variables($instance, $args) {
-        return array(
+        $settings = $instance['settings'];
+
+        $settings = array_merge($settings, array(
             'odometers' => !empty($instance['odometers']) ? $instance['odometers'] : array(),
-            'settings' => $instance['settings']
-        );
+        ));
+
+        return array('settings' => $settings);
     }
 
 }

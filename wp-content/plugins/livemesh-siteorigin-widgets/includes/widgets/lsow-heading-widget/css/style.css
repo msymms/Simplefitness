@@ -1,9 +1,3 @@
-html {
-  box-sizing: border-box; }
-
-*, *::after, *::before {
-  box-sizing: inherit; }
-
 .lsow-heading {
   text-align: center;
   margin: 0 auto 60px;
@@ -94,3 +88,5 @@ html {
     margin: 0 0 30px; }
     .lsow-heading.lsow-style3.lsow-alignleft .lsow-title:after, .lsow-heading.lsow-style3.lsow-alignright .lsow-title:after {
       margin: 10px 0 20px; }
+
+/*# sourceMappingURL=style.css.map */
